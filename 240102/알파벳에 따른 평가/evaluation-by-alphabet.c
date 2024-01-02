@@ -2,7 +2,7 @@
 
 int main() {
     char a;
-    scnaf("%c", &a);
+    scanf("%c", &a);
     if (a == 'S') {
         printf("Superior");
     } else if (a == 'A') {
