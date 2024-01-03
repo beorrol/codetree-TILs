@@ -7,9 +7,8 @@ int main() {
         a /= 2;
     }
     if (a % 2 != 0) {
-        a += 1;
-        a /= 2;
+        a = (a + 1) / 2;
     }
-    printf("%d", &a);
+    printf("%d", a);
     return 0;
 }
