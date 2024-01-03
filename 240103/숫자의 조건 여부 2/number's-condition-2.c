@@ -6,7 +6,7 @@ int main() {
     if (a == 5) {
         printf("A");
     }
-    if (a / 2 == 0) {
+    if (a % 2 == 0) {
         printf("B");
     }
     return 0;
