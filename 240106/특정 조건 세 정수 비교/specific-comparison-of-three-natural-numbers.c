@@ -8,7 +8,7 @@ int main() {
         result += a;
     } else if (b > a && b > c) {
         result += b;
-    } else {
+    } else if (c > a && c > b) {
         result += c;
     }
     if (a == result) {
