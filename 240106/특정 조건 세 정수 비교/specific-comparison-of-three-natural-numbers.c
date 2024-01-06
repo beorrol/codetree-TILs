@@ -3,15 +3,10 @@
 int main() {
     int a,b,c;
     scanf("%d %d %d", &a, &b, &c);
-    int result;
-    if (a > b && a > c) {
-        result += a;
-    } else if (b > a && b > c) {
-        result += b;
-    } else if (c > a && c > b) {
-        result += c;
-    }
-    if (a == result) {
+    int min = a;
+    if (min>b) min = b;
+    if (min>c) min = c;
+    if (a == min) {
         printf("1 ");
     } else {
         printf("0 ");
